@@ -113,8 +113,9 @@ I'm a **.NET Full Stack Developer** with **2+ years of professional experience**
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=faizkhan005&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=faizkhan005&layout=compact&theme=dark&hide_border=true&langs_count=8)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=faizkhan005&show_icons=true&theme=dark&hide_border=true&count_private=true&cache_seconds=1800)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=faizkhan005&layout=compact&theme=dark&hide_border=true&langs_count=8&cache_seconds=1800)
 
 </div>
 
