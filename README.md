@@ -1,10 +1,9 @@
 <div align="center">
 
-<!-- HEADER BANNER — replace with your actual name -->
 # Hi, I'm Faizan 👋
-### .NET Full Stack Developer · C# · ASP.NET Core · Azure · SQL Server
+### .NET Full Stack Developer · C# · ASP.NET Core · Distributed Systems · Azure
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/faizan-814521191)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/faizan-814521191)
 [![Email](https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:faizanahmedkhan005@gmail.com)
 [![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Work-22C55E?style=flat&logo=checkmarx&logoColor=white)](#)
 
@@ -14,13 +13,14 @@
 
 ## 🧑‍💻 About Me
 
-I'm a **.NET Full Stack Developer** with **2+ years of professional experience** building enterprise-grade ERP systems and production mobile applications at **Epicor Software**.
+I'm a **.NET Full Stack Developer** with **2-3 years of professional experience** building enterprise-grade ERP systems and production mobile applications at **Epicor Software**. I'm now building distributed-systems portfolio projects and heading into an **MS in Computer Engineering at NYU Tandon (Fall 2026)**, focused on AI/ML engineering and AI-integrated backend development.
 
 - 🏢 Previously: **Associate Product Developer @ Epicor Software** — owned a field-service mobile app end-to-end (C#, .NET MAUI, ASP.NET MVC, SQL Server, Azure DevOps, MSAL/Azure AD)
-- 🔭 Currently building: **ERP Inventory Management API** — Clean Architecture · .NET 10 · PostgreSQL · Redis · Docker
-- 🌱 Learning: **Docker → Azure CI/CD → AI/LLM integrations → Python + LangChain**
+- 🎓 Incoming: **MS Computer Engineering, NYU Tandon School of Engineering** — starting Fall 2026
+- 🔭 Currently building: **SaaS Notification Platform** — Clean Architecture · MassTransit + RabbitMQ · Outbox Pattern · Polly Resilience
+- 🌱 Learning: **ML fundamentals** (foundational papers, DSA) on the path toward **AI/ML engineering**
 - 💼 Open to: **.NET Backend · Full-Stack (.NET + React) · AI-Integrated Backend roles**
-- 📍 Based in: **Cleveland/Canton, OH** — open to **remote** or **relocation anywhere in the US**
+- 📍 Based in: **Charleston/Summerville, SC** — relocating to **NYC** for NYU Tandon, open to remote or relocation anywhere in the US
 - 🟢 **Green Card holder** — no sponsorship required
 
 ---
@@ -41,7 +41,13 @@ I'm a **.NET Full Stack Developer** with **2+ years of professional experience**
 ![.NET 10](https://img.shields.io/badge/.NET%2010-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Entity Framework Core](https://img.shields.io/badge/EF%20Core-512BD4?style=flat&logo=dotnet&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![MassTransit](https://img.shields.io/badge/MassTransit-FF6600?style=flat&logo=dotnet&logoColor=white)
+
+**Messaging & Resilience**
+
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![Hangfire](https://img.shields.io/badge/Hangfire-0080FF?style=flat&logo=dotnet&logoColor=white)
+![Polly](https://img.shields.io/badge/Polly-Resilience-512BD4?style=flat)
 
 **Frontend**
 
@@ -71,36 +77,20 @@ I'm a **.NET Full Stack Developer** with **2+ years of professional experience**
 
 ## 🚀 Featured Projects
 
-> Actively building — new projects drop every 1–2 weeks. ⭐ Star to follow along.
-
-### 🔧 Backend .NET Systems
+> Actively building — new commits weekly. ⭐ Star to follow along.
 
 | Project | Description | Stack | Status |
 |---|---|---|---|
-| [**ERP Inventory API**](https://github.com/faizkhan005/erp-inventory-api) | Production-grade REST API with Clean Architecture, Redis caching, JWT auth | .NET 10 · PostgreSQL · Redis · Docker | 🟡 In Progress |
-| [**Distributed Task Queue**](https://github.com/faizkhan005/distributed-task-queue) | Background job processor with retry logic, dead-letter queue, Hangfire dashboard | .NET 10 · Redis · PostgreSQL · Docker | 📅 Week 3 |
-| [**Auth Microservice**](https://github.com/faizkhan005/auth-microservice) | Multi-tenant JWT auth with RBAC, Azure AD SSO, MFA, and refresh token rotation | .NET 10 · Azure AD · MSAL · Redis | 📅 Week 5 |
-
-### 🌐 Full-Stack Applications
-
-| Project | Description | Stack | Status |
-|---|---|---|---|
-| [**React Job Board**](https://github.com/faizkhan005/react-job-board) | Full-stack job board with search, user profiles, email notifications | .NET 10 · React 18 · PostgreSQL · Azure | 📅 Week 7 |
-| [**Real-Time Dashboard**](https://github.com/faizkhan005/realtime-dashboard) | Live metrics streaming with SignalR WebSockets and Redis pub/sub | .NET 10 · SignalR · React · Chart.js | 📅 Week 9 |
-
-### 🤖 AI-Integrated Projects
-
-| Project | Description | Stack | Status |
-|---|---|---|---|
-| [**AI Code Reviewer**](https://github.com/faizkhan005/ai-code-reviewer) | GitHub PR integration with GPT-4 powered code analysis and severity scoring | Python · FastAPI · OpenAI · React | 📅 Week 10 |
-| [**RAG Document Search**](https://github.com/faizkhan005/rag-document-search) | Semantic PDF search engine with LangChain, FAISS vector store, source citations | Python · LangChain · FAISS · OpenAI | 📅 Week 11 |
-| [**AI Interview Coach**](https://github.com/faizkhan005/ai-interview-coach) | Voice-based interview practice with Whisper STT and GPT-4 scoring rubric | Python · Whisper · GPT-4 · React | 📅 Week 12 |
+| [**Notification Platform**](https://github.com/faizkhan005/notification-platform) | Production-grade SaaS notification system — Clean Architecture, event-driven with the Outbox pattern, resilient email delivery pipeline | .NET · MassTransit · RabbitMQ · Polly · MailKit | 🟡 In Progress |
+| [**ERP Inventory API**](https://github.com/faizkhan005/erp-inventory-api) | Clean Architecture REST API with JWT auth, refresh token rotation, Redis caching, cursor-based pagination | .NET 10 · PostgreSQL · Redis · Docker | 🟡 In Progress |
+| [**dotnet-task-queue**](https://github.com/faizkhan005/dotnet-task-queue) | Background job processing system with Hangfire dashboard, Redis, and Docker Compose orchestration | .NET · Hangfire · Redis · PostgreSQL · Docker | 🟡 In Progress |
+| [**Personal Finance Tracker**](https://github.com/faizkhan005/personal-finance-app) | Cross-platform finance app with receipt OCR, spending charts, and offline-first local storage | .NET MAUI · SQLite · LiveCharts2 · Google ML Kit | ✅ Built |
 
 ---
 
 ## 💼 Professional Experience
 
-**Associate Product Developer — Epicor Software** *(2 years)*
+**Associate Product Developer — Epicor Software** *(2+ years)*
 - Sole developer and owner of a **production .NET MAUI field-service mobile app** used by enterprise clients
 - Built and maintained **REST APIs** with ASP.NET MVC, SQL Server, and EF Core
 - Integrated **Azure AD / MSAL authentication** for enterprise SSO
@@ -109,29 +99,33 @@ I'm a **.NET Full Stack Developer** with **2+ years of professional experience**
 
 ---
 
-## 📊 GitHub Stats
+## 🎓 Education
 
-<div align="center">
+**MS, Computer Engineering — NYU Tandon School of Engineering** *(Fall 2026 – Fall 2027)*
+- Coursework: Machine Learning, Deep Learning, Computing Systems Architecture, High Performance Machine Learning
+
+**BE, Computer Science — Visvesvaraya Technological University (VTU)**
+
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats-peach-iota-79.vercel.app/api?username=faizkhan005&show_icons=true&theme=dark&hide_border=true&count_private=true" height="150"/>
   <img src="https://github-readme-stats-peach-iota-79.vercel.app/api/top-langs/?username=faizkhan005&layout=compact&theme=dark&hide_border=true&langs_count=8" height="150"/>
 </div>
 
-</div>
-
 ---
 
 ## 📬 Let's Connect
 
-I'm actively looking for **.NET backend, full-stack, or AI-integrated backend roles** across the US (remote or relocation). If you're building something interesting with .NET or looking for a developer who can own features end-to-end — let's talk.
+I'm actively looking for **.NET backend, full-stack, or AI-integrated backend roles** across the US (remote or relocation). If you're building something interesting with .NET or distributed systems — let's talk.
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/faizan-814521191)
 - 📧 [Email](mailto:faizanahmedkhan005@gmail.com)
-- 🌐 [Portfolio](https://faizan_portfolio.com) *(coming soon)*
 
 ---
 
 <div align="center">
-<sub>🔨 Building in public · Updated weekly · All projects include Docker + CI/CD</sub>
+<sub>🔨 Building in public · Updated regularly</sub>
 </div>
