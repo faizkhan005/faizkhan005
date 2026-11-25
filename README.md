@@ -1,11 +1,12 @@
 <div align="center">
 
 # Hi, I'm Faizan 👋
-### .NET Full Stack Developer · C# · ASP.NET Core · Distributed Systems · Azure
+### Backend Engineer · Offline-first systems · .NET & Python · MS Computer Engineering @ NYU Tandon
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/faizan-814521191)
-[![Email](https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:faizanahmedkhan005@gmail.com)
-[![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Work-22C55E?style=flat&logo=checkmarx&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-faizkhan005.github.io-111827?style=flat&logo=githubpages&logoColor=white)](https://faizkhan005.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/faizan-ahmed-khan-814521191)
+[![Email](https://img.shields.io/badge/Email-Say%20hi-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:faizanahmedkhan005@gmail.com)
+[![Resume](https://img.shields.io/badge/Resume-PDF-22C55E?style=flat&logo=readthedocs&logoColor=white)](https://faizkhan005.github.io/assets/Faizan_Ahmed_Khan_Resume.pdf)
 
 </div>
 
@@ -13,15 +14,39 @@
 
 ## 🧑‍💻 About Me
 
-I'm a **.NET Full Stack Developer** with **2-3 years of professional experience** building enterprise-grade ERP systems and production mobile applications at **Epicor Software**. I'm now building distributed-systems portfolio projects and heading into an **MS in Computer Engineering at NYU Tandon (Fall 2026)**, focused on AI/ML engineering and AI-integrated backend development.
+I spent 3 years at **Epicor** making production software work where the network doesn't. As primary and later sole developer of the **Epicor FSM** field service mobile app, I took data synchronization failures between technicians' offline devices and the server from **1 in 3 runs to nearly zero**.
 
-- 🏢 Previously: **Associate Product Developer @ Epicor Software** — owned a field-service mobile app end-to-end (C#, .NET MAUI, ASP.NET MVC, SQL Server, Azure DevOps, MSAL/Azure AD)
-- 🎓 Incoming: **MS Computer Engineering, NYU Tandon School of Engineering** — starting Fall 2026
-- 🔭 Currently building: **SaaS Notification Platform** — Clean Architecture · MassTransit + RabbitMQ · Outbox Pattern · Polly Resilience
-- 🌱 Learning: **ML fundamentals** (foundational papers, DSA) on the path toward **AI/ML engineering**
-- 💼 Open to: **.NET Backend · Full-Stack (.NET + React) · AI-Integrated Backend roles**
-- 📍 Based in: **Charleston/Summerville, SC** — relocating to **NYC** for NYU Tandon, open to remote or relocation anywhere in the US
-- 🟢 **Green Card holder** — no sponsorship required
+I'm now pursuing an **MS in Computer Engineering at NYU Tandon** (graduating Dec 2027) and expanding into Python and machine learning systems.
+
+- 🎓 **Now:** MS Computer Engineering, NYU Tandon · Machine Learning, Computer Architecture, Real-Time Embedded Systems
+- 🏢 **Previously:** Associate Product Developer @ Epicor (Feb 2023 to Jan 2026, including internship)
+- 💼 **Open to:** Summer 2027 internships and part-time roles · Backend · Forward Deployed · Applied AI
+- 📍 **Based in:** New York, NY
+- 🟢 **Green Card holder**, no sponsorship required
+
+---
+
+## 🏢 What I Shipped at Epicor
+
+| Problem | What I did | Result |
+|---|---|---|
+| Sync failed on about 1 in 3 runs and silently wiped technicians' unsynced, billable work | Rebuilt the offline sync engine with batched incremental sync over 25,000+ records and conflict handling | Failures down to **nearly zero**, no more lost field work |
+| Every on-device schema change forced customers to reinstall the app | Built versioned SQL migrations supporting upgrades and downgrades across up to 5 app versions | **Zero forced reinstalls** across 20+ releases |
+| App crashed for technicians after about 10 minutes of use | Traced it with memory profiling to retained UI components and undisposed camera streams, and drove the fix | **Memory crashes eliminated** |
+| Screens slowed down as large ERP customers came on board | OData server-side pagination, stored procedure tuning, legacy pages migrated to .NET 8 MVC | **5–6s → ~1s** and **30–40s → under 1s** load times |
+
+Also built: Azure AD sign-in with MSAL that avoids a full resync for returning users, a multi-view scheduling calendar, and web reports on technician time use and budget adherence. Stack: C#, .NET MAUI, ASP.NET MVC, SQL Server, Azure DevOps CI/CD.
+
+---
+
+## 🚀 Featured Projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [**EvalNow Lite**](https://github.com/faizkhan005/evalnow-lite) | Backend for blind mutual evaluations: neither party sees the other's review until both submit. Row-level locking (`SELECT ... FOR UPDATE`) prevents lost updates, blindness is enforced in SQL, and refresh tokens rotate with reuse detection. | Python · FastAPI · PostgreSQL |
+| [**ERP Inventory API**](https://github.com/faizkhan005/Erp-Inventory-API) | Inventory REST API with JWT auth and refresh-token rotation, Redis cache-aside caching, and cursor-based pagination. | .NET 10 · PostgreSQL · Redis · Docker |
+| [**Distributed Task Queue**](https://github.com/faizkhan005/Distributed-Task-Queue) | Background job service with retries and exponential backoff, a dead-letter queue, and a full job lifecycle audit trail. | .NET 10 · Hangfire · PostgreSQL · Redis |
+| [**Expense Tracker**](https://github.com/faizkhan005/ExpenseTracker) | Offline-first personal finance app with on-device receipt OCR, spending charts, and recurring expenses. | .NET MAUI · SQLite · LiveCharts2 · ML Kit |
 
 ---
 
@@ -31,28 +56,22 @@ I'm a **.NET Full Stack Developer** with **2-3 years of professional experience*
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 **Backend & Frameworks**
 
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat&logo=dotnet&logoColor=white)
-![.NET 10](https://img.shields.io/badge/.NET%2010-512BD4?style=flat&logo=dotnet&logoColor=white)
-![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=flat&logo=dotnet&logoColor=white)
-![Entity Framework Core](https://img.shields.io/badge/EF%20Core-512BD4?style=flat&logo=dotnet&logoColor=white)
-![MassTransit](https://img.shields.io/badge/MassTransit-FF6600?style=flat&logo=dotnet&logoColor=white)
-
-**Messaging & Resilience**
-
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![.NET 8/10](https://img.shields.io/badge/.NET%208%2F10-512BD4?style=flat&logo=dotnet&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF%20Core-512BD4?style=flat&logo=dotnet&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Hangfire](https://img.shields.io/badge/Hangfire-0080FF?style=flat&logo=dotnet&logoColor=white)
-![Polly](https://img.shields.io/badge/Polly-Resilience-512BD4?style=flat)
 
-**Frontend**
+**Mobile**
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=flat&logo=dotnet&logoColor=white)
+![Xamarin](https://img.shields.io/badge/Xamarin-3498DB?style=flat&logo=xamarin&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
 **Databases & Caching**
 
@@ -60,51 +79,31 @@ I'm a **.NET Full Stack Developer** with **2-3 years of professional experience*
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
-**Cloud, DevOps & Tools**
+**Cloud, DevOps & Auth**
 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D4?style=flat&logo=azure-devops&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D4?style=flat&logo=azure-devops&logoColor=white)
-
-**Auth & Security**
-
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white)
 ![Azure AD](https://img.shields.io/badge/Azure%20AD-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![MSAL](https://img.shields.io/badge/MSAL-0078D4?style=flat&logo=microsoft&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white)
 
----
+**Machine Learning (coursework)**
 
-## 🚀 Featured Projects
-
-> Actively building — new commits weekly. ⭐ Star to follow along.
-
-| Project | Description | Stack | Status |
-|---|---|---|---|
-| [**Notification Platform**](https://github.com/faizkhan005/notification-platform) | Production-grade SaaS notification system — Clean Architecture, event-driven with the Outbox pattern, resilient email delivery pipeline | .NET · MassTransit · RabbitMQ · Polly · MailKit | 🟡 In Progress |
-| [**ERP Inventory API**](https://github.com/faizkhan005/erp-inventory-api) | Clean Architecture REST API with JWT auth, refresh token rotation, Redis caching, cursor-based pagination | .NET 10 · PostgreSQL · Redis · Docker | 🟡 In Progress |
-| [**dotnet-task-queue**](https://github.com/faizkhan005/dotnet-task-queue) | Background job processing system with Hangfire dashboard, Redis, and Docker Compose orchestration | .NET · Hangfire · Redis · PostgreSQL · Docker | 🟡 In Progress |
-| [**Personal Finance Tracker**](https://github.com/faizkhan005/personal-finance-app) | Cross-platform finance app with receipt OCR, spending charts, and offline-first local storage | .NET MAUI · SQLite · LiveCharts2 · Google ML Kit | ✅ Built |
-
----
-
-## 💼 Professional Experience
-
-**Associate Product Developer — Epicor Software** *(2+ years)*
-- Sole developer and owner of a **production .NET MAUI field-service mobile app** used by enterprise clients
-- Built and maintained **REST APIs** with ASP.NET MVC, SQL Server, and EF Core
-- Integrated **Azure AD / MSAL authentication** for enterprise SSO
-- Delivered releases through **Azure DevOps CI/CD pipelines**
-- Improved application performance through **SQL query optimization** and caching strategies
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 
 ---
 
 ## 🎓 Education
 
-**MS, Computer Engineering — NYU Tandon School of Engineering** *(Fall 2026 – Fall 2027)*
-- Coursework: Machine Learning, Deep Learning, Computing Systems Architecture, High Performance Machine Learning
+**MS, Computer Engineering · NYU Tandon School of Engineering** *(Sep 2026 to Dec 2027)*
+- Fall 2026: Machine Learning, Computer Architecture, Real-Time Embedded Systems
+- Spring 2027: MLOps
 
-**BE, Computer Science — Visvesvaraya Technological University (VTU)**
+**BE, Computer Science · Vidyavardhaka College of Engineering (VTU)** *(2019 to 2023)*
 
 ---
 
@@ -119,13 +118,8 @@ I'm a **.NET Full Stack Developer** with **2-3 years of professional experience*
 
 ## 📬 Let's Connect
 
-I'm actively looking for **.NET backend, full-stack, or AI-integrated backend roles** across the US (remote or relocation). If you're building something interesting with .NET or distributed systems — let's talk.
+I'm looking for **Summer 2027 internships and part-time roles in NYC** in backend, forward deployed, and applied AI engineering. If you're working on systems that have to stay correct when things go wrong, I'd like to talk.
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/faizan-814521191)
+- 🌐 [Portfolio](https://faizkhan005.github.io/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/faizan-ahmed-khan-814521191)
 - 📧 [Email](mailto:faizanahmedkhan005@gmail.com)
-
----
-
-<div align="center">
-<sub>🔨 Building in public · Updated regularly</sub>
-</div>
