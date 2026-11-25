@@ -20,7 +20,7 @@ I'm now pursuing an **MS in Computer Engineering at NYU Tandon** (graduating Dec
 
 - 🎓 **Now:** MS Computer Engineering, NYU Tandon · Machine Learning, Computer Architecture, Real-Time Embedded Systems
 - 🏢 **Previously:** Associate Product Developer @ Epicor (Feb 2023 to Jan 2026, including internship)
-- 💼 **Open to:** Summer 2027 internships and part-time roles · Backend · Forward Deployed · Applied AI
+- 💼 **Seeking:** Internships in NYC · Backend · Forward Deployed
 - 📍 **Based in:** New York, NY
 - 🟢 **Green Card holder**, no sponsorship required
 
@@ -118,7 +118,7 @@ Also built: Azure AD sign-in with MSAL that avoids a full resync for returning u
 
 ## 📬 Let's Connect
 
-I'm looking for **Summer 2027 internships and part-time roles in NYC** in backend, forward deployed, and applied AI engineering. If you're working on systems that have to stay correct when things go wrong, I'd like to talk.
+I'm looking for **internships in NYC** in backend and forward deployed engineering. If you're working on systems that have to stay correct when things go wrong, I'd like to talk.
 
 - 🌐 [Portfolio](https://faizkhan005.github.io/)
 - 💼 [LinkedIn](https://www.linkedin.com/in/faizan-ahmed-khan-814521191)
